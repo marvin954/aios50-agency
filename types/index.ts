@@ -139,7 +139,7 @@ export interface ApprovalItem {
   type: ApprovalType;
   title: string;
   description: string;
-  data: Lead[] | Reply | Proposal | Invoice;
+  data: any;
   status: "pending" | "approved" | "rejected";
   created_at: string;
   resolved_at?: string;
